@@ -3,7 +3,9 @@
     color: white;
 
 }
-
+.progress{
+    margin-left: 15px;
+}
 .progress-bar{
     background-color:grey;
 }
@@ -12,9 +14,23 @@
     width: 100%;
     height:auto;
 }
-.line{
-    background-color: grey;
-    width: 40%;
-    height: 3px;
-    display: block;
+
+p{
+    font-size: large;
+    text-align: left;
+}
+.glyphicon{
+    font-size:2em;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1{
+    text-align: center;
+}
+br{
+    margin-left: 15px;
+}
+.inLine{
+    text-align: center;
 }
