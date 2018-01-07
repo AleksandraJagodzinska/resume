@@ -3,34 +3,62 @@
     color: white;
 
 }
-.progress{
+
+.progress {
     margin-left: 15px;
 }
-.progress-bar{
-    background-color:grey;
+
+.progress-bar {
+    background-color: grey;
 }
 
-.img-circle{
+.img-circle {
     width: 100%;
-    height:auto;
+    height: auto;
 }
 
-p{
-    font-size: large;
+p {
+    font-size: medium;
     text-align: left;
 }
-.glyphicon{
-    font-size:2em;
+
+.glyphicon {
+    font-size: 2em;
     margin-left: 5%;
     margin-right: 5%;
 }
 
-h1{
+h1 {
     text-align: center;
 }
-br{
+
+h2 {
+    text-align: center;
+}
+
+br {
     margin-left: 15px;
 }
-.inLine{
+
+.inLine {
     text-align: center;
+}
+
+li {
+    font-size: medium;
+    text-align: center;
+}
+
+.content {
+    align-content: center;
+    width: 80%;
+    border: solid 2px red;
+}
+
+.aside {
+    padding: 20px;
+}
+
+.main {
+    padding: 20px;
 }
