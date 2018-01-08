@@ -1,3 +1,11 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.content{
+    margin-left: 10%;
+    margin-right: 10%;
+}
 .aside {
     background-color: black;
     color: white;
@@ -9,7 +17,7 @@
 }
 
 .progress-bar {
-    background-color: grey;
+    background-color: orangered;
 }
 
 .img-circle {
@@ -46,13 +54,8 @@ br {
 
 li {
     font-size: medium;
-    text-align: center;
-}
-
-.content {
-    align-content: center;
-    width: 80%;
-    border: solid 2px red;
+    text-align: left;
+    margin-bottom: 3%;
 }
 
 .aside {
@@ -61,4 +64,26 @@ li {
 
 .main {
     padding: 20px;
+}
+#education{
+    border: solid 2px black;
+    margin: 20px 20px 20px 20px;
+}
+#interestes{
+    border: solid 2px black;
+    margin: 20px 20px 20px 20px;
+}
+#work{
+    border: solid 2px black;
+    margin: 20px 20px 20px 20px;
+}
+.orangeIcon{
+    color: orangered;
+    font-size: 3.5em;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.mide{
+    margin-bottom: 15%;
 }
