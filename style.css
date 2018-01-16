@@ -88,3 +88,7 @@ li {
     margin-bottom: 15%;
 
 }
+
+ul {
+    list-style-type: none;
+}
