@@ -2,6 +2,7 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
+
 .content{
     margin-left: 10%;
     margin-right: 10%;
@@ -41,7 +42,7 @@ h1 {
 }
 
 h2 {
-    text-align: center;
+    text-align: -webkit-left;
 }
 
 br {
@@ -83,6 +84,7 @@ li {
     text-align: center;
     margin-left: 10%;
     margin-top: 10%;
+
 }
 .mide{
     margin-bottom: 15%;
@@ -91,4 +93,5 @@ li {
 
 ul {
     list-style-type: none;
+    padding-left: 0%;
 }
