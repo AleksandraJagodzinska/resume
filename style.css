@@ -58,7 +58,7 @@ li {
 }
 
 .main {
-    padding: 20px;
+    padding: 0px;
 }
 
 .whiteIcon {
@@ -88,6 +88,51 @@ li {
 .info {
     margin-bottom: 5%;
     margin-top: 5%;
+}
+
+form {
+    width: 60%;
+    background-color: white;
+    border: 2px solid black;
+    padding: 5%;
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+
+label {
+    display: block; /* ustawiamy by label rozpoczynał się od nowej linii*/
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: black;
+}
+
+textarea, input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 25px;
+    width: 245px;
+    color: black;
+}
+
+#submit {
+    width: 25%;
+    cursor: pointer;
+    background-color: orangered;
+    color: black;
+    display: block;
+}
+
+p.copy {
+    color: red; /* ustawiamy kolor czcionki */
+    margin-bottom: 0px; /* resetujemy margines dolny */
+    font-size: 12px; /* ustawiamy rozmiar czcionki */
+    text-align: center; /* wyśrodkowywujemy tekst */
+}
+
+p.copy a {
+    color: #555555; /* ustawiamy kolor czcionki */
+    text-decoration: none; /* usuwamy podkreślenie linku */
+    font-weight: bold; /* pogrubiamy czcionkę */
 }
 
 #education{
