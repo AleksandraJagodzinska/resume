@@ -12,8 +12,9 @@
           crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <script src=”http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js”></script>
-    <script src="script.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+
 </head>
 
 <body>
@@ -40,9 +41,9 @@
                                                                          aria-hidden="true"></span></div>
         <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7 info"><p>aleksandra.jagodzinska@o2.pl</p></div>
 
-        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 whiteIcon"><span class="glyphicon glyphicon-home"
-                                                                         aria-hidden="true"></span></div>
-        <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7 info"><p>ul. Batalionów Chłopskich 01-305 Warszawa</div>
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 whiteIcon"><span class="fab fa-github"></span></div>
+        <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7 info">
+            <a href="https://github.com/AleksandraJagodzinska">github.com/AleksandraJagodzinska</a></div>
 
         <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 whiteIcon"><span class="glyphicon glyphicon-list-alt"
                                                                          aria-hidden="true"></span></div>
@@ -183,10 +184,9 @@
 
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
-        <form method="post" action="contact">
-
-            <label>Name and surname</label>
-            <input placeholder="John Smith">
+        <form action="https://formspree.io/aleksandra.berry01@gmail.com"
+              method="POST">
+            <h3>Feel free to send me a message!</h3>
             <label>Email</label>
             <input name="email" type="email" placeholder="your@email.com">
             <label>Message</label>
@@ -196,14 +196,14 @@
         </form>
     </div>
 
-
 </div>
-<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
-<!--<script src="js/bootstrap.min.js"></script>-->
 
-<div>
-    <a href="#" title="up arrow!" id="scroll-to-top"><img src="scrollup.png" alt="up arrow"/></a>
-</div>
+<footer>
+    <a href="#" id="scroll-to-top"><img src="scrollup.png" alt="strzałka do góry"/></a>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="script.js"></script>
 
 </body>
 
