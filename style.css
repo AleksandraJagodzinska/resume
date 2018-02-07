@@ -91,7 +91,8 @@ li {
 }
 
 form {
-    width: 60%;
+    width: 42%;
+    height: auto;
     background-color: white;
     border: 2px solid black;
     padding: 5%;
@@ -135,17 +136,19 @@ p.copy a {
     font-weight: bold; /* pogrubiamy czcionkę */
 }
 
-#education{
-    border: solid 2px black;
-    margin: 20px 20px 20px 20px;
-}
-#interestes{
-    border: solid 2px black;
-    margin: 20px 20px 20px 20px;
-}
-#work{
-    border: solid 2px black;
-    margin: 20px 20px 20px 20px;
+.to-top {
+    text-align: center;
 }
 
+#scroll-to-top {
+    display: none;
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+    opacity: 0.8;
+}
+
+#scroll-to-top:hover {
+    opacity: 1;
+}
 

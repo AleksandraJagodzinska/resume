@@ -6,7 +6,6 @@ $email = $_POST['email'];
 
 $message = $_POST['message'];
 
-// Podajesz adres email z którego ma być wysłana wiadomość
 $odkogo = "biuro@79level.pl";
 
 $dokogo = "aleksandra.berry01@gmail.com";
@@ -18,8 +17,12 @@ $wiadomosc .= "Imie i nazwisko: " . $name . "\n";
 $wiadomosc .= "Email: " . $email . "\n";
 $wiadomosc .= "Wiadomość: " . $message . "\n";
 
+$naglowek = "";
+$naglowek .= "Od:" . $odkogo . " \n";
+$naglowek .= "Content-Type:text/plain;charset=utf-8";
+
 // Wysyłamy wiadomość
-$succes = mail($dokogo, $tytul, $wiadomosc, "Od: <$odkogo>");
+$succes = mail($dokogo, $tytul, $wiadomosc, $naglowek);
 
 // Przekierowywujemy na potwierdzenie
 if ($succes){
