@@ -16,3 +16,5 @@ $(function () {
         $('html, body').animate({scrollTop: 0}, 1500);
     });
 });
+
+$(".orangeIcon").addClass("animated bounce");
