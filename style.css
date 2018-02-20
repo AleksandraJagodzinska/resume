@@ -25,7 +25,7 @@ br {
 
 ul {
     list-style-type: none;
-    padding-left: 0%;
+    padding-left: 0;
 }
 
 li {
@@ -69,7 +69,7 @@ a {
 }
 
 .main {
-    padding: 0px;
+    padding: 0;
 }
 
 .whiteIcon {
@@ -124,7 +124,7 @@ form {
 }
 
 label {
-    display: block; /* ustawiamy by label rozpoczynał się od nowej linii*/
+    display: block;
     margin-bottom: 5px;
     font-weight: bold;
     color: black;
@@ -139,14 +139,14 @@ textarea, input {
 }
 
 .formBlock {
-    padding-left: 0px;
+    padding-left: 0;
 }
 
 #submit {
     width: 25%;
     cursor: pointer;
     background-color: orangered;
-    color: black;
+    color: white;
     display: block;
 }
 
