@@ -41,8 +41,7 @@ a {
 }
 
 .content{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin:0 10% 0 10%;
 }
 .aside {
     background-color: black;
@@ -73,20 +72,17 @@ a {
 }
 
 .whiteIcon {
-    margin-right: 0;
     margin-top: 5%;
 }
 
 .fa-github {
     font-size: 2.2em;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin:0 5% 0 5%;
 }
 
 .fa-linkedin {
     font-size: 2.2em;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin:0 5% 0 5%;
 }
 
 .glyphicon {
@@ -99,8 +95,7 @@ a {
     color: orangered;
     font-size: 3.5em;
     text-align: center;
-    margin-left: 10%;
-    margin-top: 10%;
+    margin: 10% 0 0 10%;
 }
 
 .mide {
@@ -114,13 +109,11 @@ a {
 }
 
 form {
-    width: 42.5%;
-    height: auto;
+    width: auto;
     background-color: white;
     border: 2px solid black;
     padding: 0 5% 5% 5%;
-    margin-top: 5%;
-    margin-bottom: 15%;
+    margin:5% 0 15% 15%;
 }
 
 label {
