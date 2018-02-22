@@ -1,3 +1,5 @@
+* {box-sizing: border-box;}
+
 body{
     font-family: 'Lato', sans-serif;
 }
@@ -41,7 +43,8 @@ a {
 }
 
 .content{
-    margin:0 10% 0 10%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .aside {
     background-color: black;
@@ -72,17 +75,20 @@ a {
 }
 
 .whiteIcon {
+    margin-right: 0;
     margin-top: 5%;
 }
 
 .fa-github {
     font-size: 2.2em;
-    margin:0 5% 0 5%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .fa-linkedin {
     font-size: 2.2em;
-    margin:0 5% 0 5%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .glyphicon {
@@ -95,12 +101,25 @@ a {
     color: orangered;
     font-size: 3.5em;
     text-align: center;
-    margin: 10% 0 0 10%;
+    margin-left: 10%;
+    margin-top: 10%;
 }
 
 .mide {
     margin-bottom: 15%;
-
+}
+@media only screen /*iPad Pro*/
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    .mide {
+        margin-bottom: 2%;
+    }
+}
+@media (max-width:1022px){
+    .mide {
+        margin-bottom: 2%;
+    }
 }
 
 .info {
@@ -109,11 +128,13 @@ a {
 }
 
 form {
-    width: auto;
+    /* width: 42.5%; */
+    height: auto;
     background-color: white;
     border: 2px solid black;
-    padding: 0 5% 5% 5%;
-    margin:5% 0 15% 15%;
+    padding: 20px;
+    margin-top: 5%;
+    margin-bottom: 15%;
 }
 
 label {
@@ -124,23 +145,25 @@ label {
 }
 
 textarea, input {
-    padding: 5px;
-    border: 1px solid #ccc;
+    /* padding: 5px;
+    border: 1px solid #ccc; */
     margin-bottom: 25px;
-    width: 245px;
+    /* width: 245px; */
     color: black;
 }
 
 .formBlock {
     padding-left: 0;
+    padding-right: 0;
 }
 
 #submit {
-    width: 25%;
-    cursor: pointer;
     background-color: orangered;
-    color: white;
-    display: block;
+    border: 1px solid rgb(219, 62, 5);
+}
+#submit:hover {
+    background-color: rgb(219, 62, 5);
+    border: 1px solid rgb(219, 62, 5);
 }
 
 #scroll-to-top {
